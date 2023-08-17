@@ -1,0 +1,36 @@
+/*----------------------------
+       Add CSS file
+----------------------------*/
+@import "../../../css/bootstrap/css/bootstrap.min.css";
+@import '../../../css/fontawesome/css/font-awesome.css';
+@import '../../../css/lineawesome/css/line-awesome.css';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*----------------------------
+ element      
+----------------------------*/
+
+* {-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;}
+html { text-rendering: optimizeLegibility !important;-webkit-font-smoothing: antialiased !important;}
+*{margin:0; padding:0}
+a{ text-decoration:none;}
+a:hover{ text-decoration:none !important;}
+header, nav, section, article, aside, footer { display:block;}
+html {font-size: 100%;}
+body {font-size: 12px; background:#15141a;font-family: 'Montserrat', sans-serif;line-height: 26px;color: #777;-webkit-font-smoothing: antialiased;font-weight: normal;}
+h1, h2, h3, h4, h5, h6 {padding: 5px 0 15px 0;color: #333;font-weight: normal;-webkit-font-smoothing: antialiased;}
+:-ms-input-placeholder{color: #000;}
+
+
+/***====================================================================
+  Dashboard
+====================================================================***/
+section.internal-page-section {padding: 2rem 0; position: relative; }
+.cms-content {border-radius: 10px; background: #201f27; padding: 20px; position: relative; }
+.cms-content h1 {font-size: 24px; font-weight: 600; color: #fff; margin: 0; padding-top: 0; }
+.cms-content h2 {font-size: 20px; font-weight: 600; color: #fff; margin: 0; padding-top: 0; }
+.cms-content p {font-size: 14px;  color: #fff;text-align: justify; line-height: 24px;}
+
+.cms-content ul {list-style-type: square; list-style-position: outside; padding: 0 0 0 20px; }
+.cms-content ul li{font-size: 14px;  color: #fff;}

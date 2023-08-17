@@ -1,0 +1,8 @@
+.sp-chart-card {background: #343339; border-radius: 5px; margin-bottom: 20px; border: 1px solid #444653; position: relative; }
+.sp-chart-body {padding: 10px; }
+
+h2{color: #fff; font-size: 20px; font-weight: bold; text-align: center; margin: 0; padding: 0;}
+p {color: #939393; font-size: 13px; text-align: center; margin: 0; }
+
+.sp-chart-icon {height: 50px; width: 50px; text-align: center; margin: 0 auto 10px auto; background: #201f27; border-radius: 50%; color: #fff; font-size: 30px; line-height: 50px; }
+.ds-chart{width: 100%; height: 110px;}
