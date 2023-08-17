@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "543709238802",
+    "firebase_url": "https://sportsbaze-301710-default-rtdb.firebaseio.com",
+    "project_id": "sportsbaze-301710",
+    "storage_bucket": "sportsbaze-301710.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:543709238802:android:c3dd66a9423399fb98eacb",
+        "android_client_info": {
+          "package_name": "com.sportsbaze"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "543709238802-t2t12o576boo6r74tmjtq8ovjc4668t0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4O2q844JvXcOpT0J6wreFNT0pP7qfZy4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "543709238802-t2t12o576boo6r74tmjtq8ovjc4668t0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "543709238802-bun8rroboq5u3anhci7u0j0tlu92m09m.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.SportBaze"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

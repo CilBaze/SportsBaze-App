@@ -1,0 +1,572 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sportsbaze"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:12:1-14:14
+8        android:minSdkVersion="21"
+8-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:12:11-37
+9        android:targetSdkVersion="29" />
+9-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:13:11-40
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:4:1-63
+11-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:4:18-60
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:5:1-60
+12-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:5:18-58
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:6:1-76
+13-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:6:18-74
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:7:1-75
+14-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:7:18-73
+15    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+15-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:8:1-66
+15-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:8:18-64
+16    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+16-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:9:1-71
+16-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:9:18-68
+17    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+17-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:10:1-76
+17-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:10:18-74
+18    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+18-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:11:1-75
+18-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:11:18-72
+19    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+19-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:15:5-81
+19-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:15:22-78
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:16:6-78
+20-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:16:23-76
+21    <uses-permission android:name="android.permission.VIBRATE" />
+21-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:17:6-67
+21-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:17:23-64
+22    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+22-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:18:5-80
+22-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:18:22-78
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[:react-native-community_netinfo] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:5-79
+23-->[:react-native-community_netinfo] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:9:22-76
+24    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+24-->[:react-native-community_netinfo] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-76
+24-->[:react-native-community_netinfo] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-community/netinfo/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:22-73
+25    <uses-permission android:name="android.permission.WAKE_LOCK" />
+25-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-68
+25-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-65
+26
+27    <uses-feature
+27-->[:react-native-camera] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:11:5-13:36
+28        android:name="android.hardware.camera"
+28-->[:react-native-camera] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:12:9-47
+29        android:required="false" />
+29-->[:react-native-camera] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:13:9-33
+30    <uses-feature
+30-->[:react-native-camera] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:14:5-16:36
+31        android:name="android.hardware.camera.autofocus"
+31-->[:react-native-camera] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:15:9-57
+32        android:required="false" />
+32-->[:react-native-camera] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-camera/android/build/intermediates/library_manifest/generalRelease/AndroidManifest.xml:16:9-33
+33
+34    <queries>
+34-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:5-14:15
+35        <intent>
+35-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:9-13:18
+36            <action android:name="android.media.action.IMAGE_CAPTURE" />
+36-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-73
+36-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:21-70
+37        </intent>
+38    </queries> <!-- Required by older versions of Google Play services to create IID tokens -->
+39    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+39-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:5-82
+39-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:25:22-79
+40
+41    <uses-feature
+41-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/b77d3fcf5ed0bf89beba163d1a1181fa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+42        android:glEsVersion="0x00020000"
+42-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/b77d3fcf5ed0bf89beba163d1a1181fa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+43        android:required="true" />
+43-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/b77d3fcf5ed0bf89beba163d1a1181fa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+44
+45    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- for android -->
+45-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:5-110
+45-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:26:22-107
+46    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+47    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+48    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+49    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+50    <!-- for Samsung -->
+51    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:5-86
+51-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:19:22-83
+52    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:5-87
+52-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:20:22-84
+53    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:5-81
+53-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:23:22-78
+54    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:5-83
+54-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:24:22-80
+55    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:5-88
+55-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:27:22-85
+56    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:5-92
+56-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:28:22-89
+57    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:5-84
+57-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:31:22-81
+58    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:5-83
+58-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:34:22-80
+59    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:5-91
+59-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:37:22-88
+60    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:5-92
+60-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:38:22-89
+61    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:5-93
+61-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:39:22-90
+62    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:5-73
+62-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:42:22-70
+63    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:5-82
+63-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:45:22-79
+64    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:5-83
+64-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:46:22-80
+65    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:5-88
+65-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:49:22-85
+66    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:5-89
+66-->[me.leolin:ShortcutBadger:1.1.22] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/f495d01ea67886b61ba7d610debec439/jetified-ShortcutBadger-1.1.22/AndroidManifest.xml:50:22-86
+67
+68    <application
+68-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:19:5-69:19
+69        android:name="com.sportsbaze.MainApplication"
+69-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:20:7-38
+70        android:allowBackup="false"
+70-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:25:7-34
+71        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+71-->[androidx.core:core:1.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/53fdaf5f73e84748bef26bd6203360a1/core-1.1.0/AndroidManifest.xml:24:18-86
+72        android:configChanges="keyboardHidden|orientation"
+72-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:22:7-57
+73        android:icon="@mipmap/ic_launcher"
+73-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:24:47-81
+74        android:label="@string/app_name"
+74-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:21:7-39
+75        android:requestLegacyExternalStorage="true"
+75-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:26:7-50
+76        android:roundIcon="@mipmap/ic_launcher"
+76-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:24:7-46
+77        android:screenOrientation="portrait"
+77-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:23:7-43
+78        android:theme="@style/AppTheme"
+78-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:28:7-38
+79        android:usesCleartextTraffic="true" >
+79-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:27:7-42
+80        <activity
+80-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:29:7-39:18
+81            android:name="com.sportsbaze.MainActivity"
+81-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:30:9-37
+82            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+82-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:32:9-86
+83            android:label="@string/app_name"
+83-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:31:9-41
+84            android:launchMode="singleTask"
+84-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:33:9-40
+85            android:windowSoftInputMode="adjustResize" >
+85-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:34:9-51
+86            <intent-filter>
+86-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:35:9-38:25
+87                <action android:name="android.intent.action.MAIN" />
+87-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:36:13-65
+87-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:36:21-62
+88
+89                <category android:name="android.intent.category.LAUNCHER" />
+89-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:37:13-73
+89-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:37:23-70
+90            </intent-filter>
+91        </activity>
+92        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+92-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:40:7-84
+92-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:40:17-81
+93
+94        <!--
+95      <meta-data
+96      android:name="com.google.android.geo.API_KEY"
+97      android:value="AIzaSyDLAHWiWMZsT6uoevKBejTU-gn6vxcczJQ"/>
+98        -->
+99
+100        <meta-data
+100-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:46:7-47:44
+101            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+101-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:46:19-95
+102            android:value="false" />
+102-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:47:21-42
+103        <!-- Change the resource name to your App's accent color - or any other color you want -->
+104        <meta-data
+104-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:49:9-50:54
+105            android:name="com.dieam.reactnativepushnotification.notification_color"
+105-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:49:21-92
+106            android:resource="@color/white" /> <!-- or @android:color/{name} to use a standard color -->
+106-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:50:21-52
+107
+108        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationActions" />
+108-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:52:9-108
+108-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:52:19-105
+109        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationPublisher" />
+109-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:53:9-110
+109-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:53:19-107
+110        <receiver android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationBootEventReceiver" >
+110-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:54:9-60:20
+110-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:54:19-115
+111            <intent-filter>
+111-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:55:13-59:29
+112                <action android:name="android.intent.action.BOOT_COMPLETED" />
+112-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:56:17-79
+112-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:56:25-76
+113                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+113-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:57:17-82
+113-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:57:25-79
+114                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+114-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:58:17-81
+114-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:58:25-79
+115            </intent-filter>
+116        </receiver>
+117
+118        <service
+118-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:62:9-68:19
+119            android:name="com.dieam.reactnativepushnotification.modules.RNPushNotificationListenerService"
+119-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:63:13-107
+120            android:exported="false" >
+120-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:64:13-37
+121            <intent-filter>
+121-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:65:13-67:29
+122                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+122-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:66:17-78
+122-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:66:25-75
+123            </intent-filter>
+124        </service>
+125        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+125-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:9-111
+125-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:18-108
+126        <service
+126-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:9-23:19
+127            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+127-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:13-95
+128            android:exported="false" >
+128-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:13-37
+129            <intent-filter>
+129-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:65:13-67:29
+130                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+130-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:66:17-78
+130-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:66:25-75
+131            </intent-filter>
+132        </service>
+133
+134        <receiver
+134-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:9-32:20
+135            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+135-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:13-96
+136            android:exported="true"
+136-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:27:13-36
+137            android:permission="com.google.android.c2dm.permission.SEND" >
+137-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:28:13-73
+138            <intent-filter>
+138-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+139                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+139-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+139-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+140            </intent-filter>
+141        </receiver>
+142
+143        <meta-data
+143-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:34:9-36:36
+144            android:name="firebase_messaging_auto_init_enabled"
+144-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:35:13-64
+145            android:value="true" />
+145-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:36:13-33
+146        <meta-data
+146-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:37:9-39:32
+147            android:name="com.google.firebase.messaging.default_notification_channel_id"
+147-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:38:13-89
+148            android:value="" />
+148-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:39:13-29
+149        <meta-data
+149-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:40:9-42:47
+150            android:name="com.google.firebase.messaging.default_notification_color"
+150-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:41:13-84
+151            android:resource="@color/white" />
+151-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:42:13-44
+152
+153        <provider
+153-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:9-27:20
+154            android:name="androidx.core.content.FileProvider"
+154-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:20:13-62
+155            android:authorities="com.sportsbaze.provider"
+155-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:21:13-60
+156            android:exported="false"
+156-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:22:13-37
+157            android:grantUriPermissions="true" >
+157-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:23:13-47
+158            <meta-data
+158-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:58
+159                android:name="android.support.FILE_PROVIDER_PATHS"
+159-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+160                android:resource="@xml/provider_paths" />
+160-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-55
+161        </provider>
+162
+163        <activity
+163-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:9-31:72
+164            android:name="com.yalantis.ucrop.UCropActivity"
+164-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:13-60
+165            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+165-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:31:13-69
+166
+167        <provider
+167-->[:react-native-image-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:10:9-18:20
+168            android:name="com.imagepicker.FileProvider"
+168-->[:react-native-image-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:13-56
+169            android:authorities="com.sportsbaze.provider"
+169-->[:react-native-image-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:13-60
+170            android:exported="false"
+170-->[:react-native-image-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-37
+171            android:grantUriPermissions="true" >
+171-->[:react-native-image-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-47
+172            <meta-data
+172-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:58
+173                android:name="android.support.FILE_PROVIDER_PATHS"
+173-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+174                android:resource="@xml/provider_paths" />
+174-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-55
+175        </provider>
+176        <provider
+176-->[:react-native-webview] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+177            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+177-->[:react-native-webview] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-83
+178            android:authorities="com.sportsbaze.fileprovider"
+178-->[:react-native-webview] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-64
+179            android:exported="false"
+179-->[:react-native-webview] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+180            android:grantUriPermissions="true" >
+180-->[:react-native-webview] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-webview/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+181            <meta-data
+181-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:24:13-26:58
+182                android:name="android.support.FILE_PROVIDER_PATHS"
+182-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:25:17-67
+183                android:resource="@xml/file_provider_paths" />
+183-->[:react-native-image-crop-picker] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/release/AndroidManifest.xml:26:17-55
+184        </provider>
+185
+186        <receiver
+186-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:28:9-35:20
+187            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+187-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:29:13-78
+188            android:exported="true"
+188-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:30:13-36
+189            android:permission="com.google.android.c2dm.permission.SEND" >
+189-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:31:13-73
+190            <intent-filter>
+190-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:29:13-31:29
+191                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+191-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:17-81
+191-->[:react-native-firebase_messaging] /Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/node_modules/@react-native-firebase/messaging/android/build/intermediates/library_manifest/release/AndroidManifest.xml:30:25-78
+192            </intent-filter>
+193        </receiver>
+194        <!--
+195             FirebaseMessagingService performs security checks at runtime,
+196             but set to not exported to explicitly avoid allowing another app to call it.
+197        -->
+198        <service
+198-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:41:9-48:19
+199            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+199-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:42:13-82
+200            android:directBootAware="true"
+200-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:43:13-43
+201            android:exported="false" >
+201-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:44:13-37
+202            <intent-filter android:priority="-500" >
+202-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:65:13-67:29
+203                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+203-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:66:17-78
+203-->/Users/arunsingh/Desktop/NileProject/sports/sportsbaze_ios/android/app/src/main/AndroidManifest.xml:66:25-75
+204            </intent-filter>
+205        </service>
+206        <service
+206-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:49:9-55:19
+207            android:name="com.google.firebase.components.ComponentDiscoveryService"
+207-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:50:13-84
+208            android:directBootAware="true"
+208-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+209            android:exported="false" >
+209-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:51:13-37
+210            <meta-data
+210-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:52:13-54:85
+211                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+211-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:53:17-119
+212                android:value="com.google.firebase.components.ComponentRegistrar" />
+212-->[com.google.firebase:firebase-messaging:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/1bc673674f92541df54c9a866372c568/jetified-firebase-messaging-21.1.0/AndroidManifest.xml:54:17-82
+213            <meta-data
+213-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/98e3076e688447e2477aaf774ef62a7e/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:28:13-30:85
+214                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+214-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/98e3076e688447e2477aaf774ef62a7e/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:29:17-115
+215                android:value="com.google.firebase.components.ComponentRegistrar" />
+215-->[com.google.firebase:firebase-datatransport:17.0.10] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/98e3076e688447e2477aaf774ef62a7e/jetified-firebase-datatransport-17.0.10/AndroidManifest.xml:30:17-82
+216            <meta-data
+216-->[com.google.firebase:firebase-iid:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/3563ff70dfc7400c3ee8d5650f2f1f7d/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+217                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+217-->[com.google.firebase:firebase-iid:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/3563ff70dfc7400c3ee8d5650f2f1f7d/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+218                android:value="com.google.firebase.components.ComponentRegistrar" />
+218-->[com.google.firebase:firebase-iid:21.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/3563ff70dfc7400c3ee8d5650f2f1f7d/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+219            <meta-data
+219-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/715e7d48fa21fe00234149893ee52114/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:30:13-32:85
+220                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+220-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/715e7d48fa21fe00234149893ee52114/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:31:17-139
+221                android:value="com.google.firebase.components.ComponentRegistrar" />
+221-->[com.google.android.gms:play-services-measurement-api:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/715e7d48fa21fe00234149893ee52114/jetified-play-services-measurement-api-18.0.2/AndroidManifest.xml:32:17-82
+222            <meta-data
+222-->[com.google.firebase:firebase-installations:16.3.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4746904545bacc45edd4d3aa3012e7ca/jetified-firebase-installations-16.3.5/AndroidManifest.xml:18:13-20:85
+223                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+223-->[com.google.firebase:firebase-installations:16.3.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4746904545bacc45edd4d3aa3012e7ca/jetified-firebase-installations-16.3.5/AndroidManifest.xml:19:17-127
+224                android:value="com.google.firebase.components.ComponentRegistrar" />
+224-->[com.google.firebase:firebase-installations:16.3.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4746904545bacc45edd4d3aa3012e7ca/jetified-firebase-installations-16.3.5/AndroidManifest.xml:20:17-82
+225            <!--
+226                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+227                clients to use it as well, by defining this registrar in their own core/common library.
+228            -->
+229            <meta-data
+229-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+230                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+230-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+231                android:value="com.google.firebase.components.ComponentRegistrar" />
+231-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+232        </service>
+233        <service
+233-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/2441224f839d40c3010a310ac444f698/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:29:9-35:19
+234            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+234-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/2441224f839d40c3010a310ac444f698/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:30:13-103
+235            android:exported="false" >
+235-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/2441224f839d40c3010a310ac444f698/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:31:13-37
+236            <meta-data
+236-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/2441224f839d40c3010a310ac444f698/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:32:13-34:39
+237                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+237-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/2441224f839d40c3010a310ac444f698/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:33:17-94
+238                android:value="cct" />
+238-->[com.google.android.datatransport:transport-backend-cct:2.3.3] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/2441224f839d40c3010a310ac444f698/jetified-transport-backend-cct-2.3.3/AndroidManifest.xml:34:17-36
+239        </service>
+240        <service
+240-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/44ff67ea86ab732200fbaa1e751e16a0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:26:9-30:19
+241            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+241-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/44ff67ea86ab732200fbaa1e751e16a0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:27:13-117
+242            android:exported="false"
+242-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/44ff67ea86ab732200fbaa1e751e16a0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:28:13-37
+243            android:permission="android.permission.BIND_JOB_SERVICE" >
+243-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/44ff67ea86ab732200fbaa1e751e16a0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:29:13-69
+244        </service>
+245
+246        <receiver
+246-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/44ff67ea86ab732200fbaa1e751e16a0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:32:9-34:40
+247            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+247-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/44ff67ea86ab732200fbaa1e751e16a0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:33:13-132
+248            android:exported="false" />
+248-->[com.google.android.datatransport:transport-runtime:2.2.5] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/44ff67ea86ab732200fbaa1e751e16a0/jetified-transport-runtime-2.2.5/AndroidManifest.xml:34:13-37
+249
+250        <activity
+250-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:23:9-27:75
+251            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+251-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:24:13-93
+252            android:excludeFromRecents="true"
+252-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:25:13-46
+253            android:exported="false"
+253-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:26:13-37
+254            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+254-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:27:13-72
+255        <!--
+256            Service handling Google Sign-In user revocation. For apps that do not integrate with
+257            Google Sign-In, this service will never be started.
+258        -->
+259        <service
+259-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:33:9-37:51
+260            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+260-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:34:13-89
+261            android:exported="true"
+261-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:35:13-36
+262            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+262-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:36:13-107
+263            android:visibleToInstantApps="true" /> <!-- Needs to be explicitly declared on P+ -->
+263-->[com.google.android.gms:play-services-auth:19.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/06073b5be3a169031642148fef6c527a/jetified-play-services-auth-19.0.0/AndroidManifest.xml:37:13-48
+264        <uses-library
+264-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/b77d3fcf5ed0bf89beba163d1a1181fa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+265            android:name="org.apache.http.legacy"
+265-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/b77d3fcf5ed0bf89beba163d1a1181fa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+266            android:required="false" />
+266-->[com.google.android.gms:play-services-maps:17.0.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/b77d3fcf5ed0bf89beba163d1a1181fa/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+267
+268        <activity
+268-->[com.google.android.gms:play-services-base:17.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/53b9c3dab17189907f1a1c8a64aa0799/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+269            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+269-->[com.google.android.gms:play-services-base:17.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/53b9c3dab17189907f1a1c8a64aa0799/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+270            android:exported="false"
+270-->[com.google.android.gms:play-services-base:17.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/53b9c3dab17189907f1a1c8a64aa0799/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+271            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+271-->[com.google.android.gms:play-services-base:17.1.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/53b9c3dab17189907f1a1c8a64aa0799/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+272
+273        <receiver
+273-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:29:9-33:20
+274            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+274-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:30:13-85
+275            android:enabled="true"
+275-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:31:13-35
+276            android:exported="false" >
+276-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:32:13-37
+277        </receiver>
+278
+279        <service
+279-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:35:9-38:40
+280            android:name="com.google.android.gms.measurement.AppMeasurementService"
+280-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:36:13-84
+281            android:enabled="true"
+281-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:37:13-35
+282            android:exported="false" />
+282-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:38:13-37
+283        <service
+283-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:39:9-43:72
+284            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+284-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:40:13-87
+285            android:enabled="true"
+285-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:41:13-35
+286            android:exported="false"
+286-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:42:13-37
+287            android:permission="android.permission.BIND_JOB_SERVICE" />
+287-->[com.google.android.gms:play-services-measurement:18.0.2] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/9c600d3d6d2b74aec4066d9222aa0d14/jetified-play-services-measurement-18.0.2/AndroidManifest.xml:43:13-69
+288
+289        <provider
+289-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+290            android:name="com.google.firebase.provider.FirebaseInitProvider"
+290-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+291            android:authorities="com.sportsbaze.firebaseinitprovider"
+291-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+292            android:directBootAware="true"
+292-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+293            android:exported="false"
+293-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+294            android:initOrder="100" />
+294-->[com.google.firebase:firebase-common:19.5.0] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/4b9e2e14c6445a038b33310a063eb1c4/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+295
+296        <meta-data
+296-->[com.google.android.gms:play-services-basement:17.1.1] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/d7459c41b2776868796ee8d5fc927df7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+297            android:name="com.google.android.gms.version"
+297-->[com.google.android.gms:play-services-basement:17.1.1] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/d7459c41b2776868796ee8d5fc927df7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+298            android:value="@integer/google_play_services_version" />
+298-->[com.google.android.gms:play-services-basement:17.1.1] /Users/arunsingh/.gradle/caches/transforms-2/files-2.1/d7459c41b2776868796ee8d5fc927df7/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+299    </application>
+300
+301</manifest>
